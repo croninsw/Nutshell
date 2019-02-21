@@ -13,6 +13,8 @@ import friendsModule from "./friends";
 
 //
 
+
+
 const dashboardRefreshional = () => {
     const userId = parseInt(sessionStorage.getItem('userId'))
     const dashboardContainer = document.getElementById("dashboardContainer")
